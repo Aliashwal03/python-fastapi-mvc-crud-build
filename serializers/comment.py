@@ -1,5 +1,3 @@
-# serializers/comment.py
-
 from pydantic import BaseModel
 
 class CommentSchema(BaseModel):
