@@ -1,7 +1,9 @@
 from pydantic import BaseModel
+from typing import Optional, List
+
 
 class CommentSchema(BaseModel):
-  id: int
+  id: Optional[int] = True
   content: str
 
   class Config:
